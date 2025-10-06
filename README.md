@@ -41,7 +41,7 @@ A comprehensive CLI tool to automate your HackTheBox workflow.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/HTB-CLI.git
+git clone https://github.com/sbeving/HTB-CLI.git
 cd HTB-CLI
 
 # Install dependencies
