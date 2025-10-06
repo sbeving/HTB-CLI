@@ -1,0 +1,34 @@
+{
+  "api_token": "YOUR_HTB_API_TOKEN_HERE",
+  
+  "workspace": "~/htb",
+  
+  "vpn": {
+    "default_server": "eu-free-2",
+    "auto_connect": false,
+    "current_config": "/home/kali/.htb-cli/vpn/htb-eu-free-2.ovpn"
+  },
+  
+  "scan": {
+    "default_threads": "1000",
+    "save_results": true,
+    "quick_ports": "1-1000",
+    "full_ports": "-",
+    "web_wordlist": "/usr/share/wordlists/dirb/common.txt",
+    "web_extensions": "php,html,txt,js,asp,aspx,jsp"
+  },
+  
+  "editor": "nano",
+  
+  "current_target": {
+    "name": "Example",
+    "ip": "10.10.10.10",
+    "domain": "example.htb"
+  },
+  
+  "preferences": {
+    "auto_hosts": false,
+    "auto_export": false,
+    "color_output": true
+  }
+}

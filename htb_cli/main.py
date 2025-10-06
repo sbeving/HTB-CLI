@@ -6,7 +6,7 @@ Main entry point for the CLI application
 
 import click
 from rich.console import Console
-from htb_cli.commands import machines, vpn, target, scan, config, notes
+from htb_cli.commands import machines, vpn, target, scan, config, notes, exploit
 
 console = Console()
 
@@ -29,6 +29,7 @@ cli.add_command(vpn.vpn)
 cli.add_command(target.target)
 cli.add_command(scan.scan)
 cli.add_command(notes.notes)
+cli.add_command(exploit.exploit)
 
 
 @cli.command()
